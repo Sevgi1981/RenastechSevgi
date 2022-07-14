@@ -53,7 +53,7 @@ public class SwitchStatementPre1 {
 
             }
 
-            System.out.println(dayName+ " is " +activityName+ " day");
+            System.out.println(dayName +activityName);
 
 
         }

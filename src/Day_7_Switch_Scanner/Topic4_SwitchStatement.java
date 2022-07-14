@@ -24,7 +24,7 @@ public class Topic4_SwitchStatement {
          */
         public static void main(String[] args) {
 
-            int number= 6;
+            int number= 20;
             String Month = "";
 
             switch(number) { // where I put my variable
@@ -54,7 +54,7 @@ public class Topic4_SwitchStatement {
                 case 12: Month = "Dec";
                     break;
                 default: Month = "Invalid Month";  // if number none of those you should put it
-
+                    break;
             }
 
             System.out.println("The month in this year is " +Month);
