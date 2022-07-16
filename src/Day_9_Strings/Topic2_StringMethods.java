@@ -54,7 +54,7 @@ trim()	              Removes whitespace from both ends of a string	             
         String str4= str1 + str2;  // name0name1
         System.out.println(str4);
 
-        System.out.println("**************");
+        System.out.println("* contains example *");
 
         // contains ()        Checks whether a string contains a sequence of characters          boolean
 
@@ -62,7 +62,7 @@ trim()	              Removes whitespace from both ends of a string	             
         boolean YN= name1.contains("ulay");
         System.out.println(YN); // true
 
-        System.out.println("**************");
+        System.out.println("* endsWith example *");
         // endsWith ()       Checks whether a string ends with the specified character(s)    boolean
         // if your string ends with given condition it will be true
         // if it is not then you will have false
@@ -73,7 +73,7 @@ trim()	              Removes whitespace from both ends of a string	             
         name1.endsWith("ay");
         System.out.println(name1.endsWith("ay")); //it is the same thing with above
 
-        System.out.println("*************");
+        System.out.println("* equals example *");
 
         // equals ()            Compares two strings. Returns true if the strings are equal and false if it is not  boolean
         // equals method will only care exact math value not the memory (object type)
@@ -86,12 +86,12 @@ trim()	              Removes whitespace from both ends of a string	             
         System.out.println(name2 == name3);// it is same thing
 
 
-        System.out.println("*************");
+        System.out.println("* equalsIgnoreCase() example *");
         // equalsIgnoreCase()   Compare two strings, ignoring case considerations                            boolean
 
         System.out.println(name2.equalsIgnoreCase(name3)); // true
 
-        System.out.println("indexOf*********");
+        System.out.println("* indexOf example *");
 
         // indexOf()           Returns the position of the first found occurrence of specified characters in a string  int
 
@@ -99,7 +99,7 @@ trim()	              Removes whitespace from both ends of a string	             
         int ind= name5.indexOf('n');
         System.out.println(ind);
 
-        System.out.println("*************");
+        System.out.println("* isEmpty() example *");
 
         // isEmpty()           Checks whether a  string is empty or not boolean
 
@@ -114,17 +114,17 @@ trim()	              Removes whitespace from both ends of a string	             
 
 
         // length()    Returns the length of a specified string             int
-        System.out.println("*************");
+        System.out.println("* length() example*");
 
-        String str100= "ststrkhkdkdkfmfmfm";
+        String str100= "ststrkhkdk dkfmfmfm";
         int count=str100.length();
         System.out.println(count);
 
         //replace ()      Searches a string for a specified value and returns a new string where the specified values are replaced  String
 
-        System.out.println("************");
+        System.out.println("* replace () example *");
 
-        String name12= "GulayGGGGG";
+        String name12= "GulayGGGG";
         String name13= name12.replace("lay", "n");
         System.out.println(name13);
 
@@ -136,7 +136,7 @@ trim()	              Removes whitespace from both ends of a string	             
 
         //startsWith() Checks whether a string starts with specified characters	        boolean
 
-        System.out.println("************");
+        System.out.println("* startsWith() example*");
 
         String name16= "Alican";
         boolean YN5 = name16.startsWith("Al");

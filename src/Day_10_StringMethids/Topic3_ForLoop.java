@@ -53,10 +53,10 @@ public class Topic3_ForLoop {
                 System.out.print("*"); // new line print all * (alt alta) // if we remove ln and new sout it will be 5 colon and 5 star
 
             }
-            System.out.println();
+           System.out.println();
         }
         for (int i = 4; i >0; i--){
-            for (int j=0; j<i; j++){
+            for (int j = 0; j < i; j++){
                 System.out.print("*");
         }
             System.out.println();
